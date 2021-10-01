@@ -1,0 +1,91 @@
+
+body{
+    text-align: center;
+    background-color: rgb(70, 68, 68);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(134, 134, 120);
+    border: 1px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
+.O{
+    position: relative;
+
+}
+
+.X{
+    position: relative;
+}
+
+
+
+.O:after{
+    position: absolute;
+    content: "\26AB";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    
+    
+}
+
+/* .X:after{
+    position: absolute;
+    content: "\26AB";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    
+    
+} */
+
+.X:after{
+    position: absolute;
+    /* CONTENT SERVE PARA PEGAR UM ICONE ATRAVES DE UM CÓDIGO 
+    DO SITE https://emojipedia.org/*/
+    content: "\2716";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    
+    
+}
+
+.j1::after{
+    content:"\26AB"; 
+    
+
+}
+
+.j2::after{
+    content: "\2716";
+
+}
+

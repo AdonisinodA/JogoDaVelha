@@ -1,0 +1,3 @@
+-placar de cada usuário (acumulado a cada rodada)
+
+- botao de reset de partida
